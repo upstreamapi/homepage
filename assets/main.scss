@@ -69,12 +69,19 @@
 .width-md {
     max-width: 25rem;
 }
+
 .width-img {
-    width: 400px;
+    max-width: 500px;
 }
+
 .height-img {
     height: auto;
 }
+
+.w-100 {
+    width: 100%;
+}
+
 .button-cta-inner {
     background-color: #191A21;
     color: #fff;
@@ -114,4 +121,22 @@
     width: 1.5rem;
     height: 1.5rem;
     margin-right: 0.5rem;
+}
+
+.success {
+    color: #07b39b;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.font-sm {
+    font-size: small; 
+}
+
+.icon {
+    font-size: 1.5rem !important;
+    vertical-align: middle;
+    margin-right: 1rem;
 }
